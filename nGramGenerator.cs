@@ -9,10 +9,10 @@ using System.Threading.Tasks;
 
 namespace RiteshMahato.Utilities
 {
-	//<definition> function to generate nGrams for given list of strings</definition>
-	//<param = "tokens">List of strings for which ngrams are to be generated</param>
-	//<param = "ngramLength"> bigram = 2, trigram = 3, etc</param>
-	//<return>List of nGrams (strings) </return>
+    //<definition> function to generate nGrams for given list of strings</definition>
+    //<param = "tokens">List of strings for which ngrams are to be generated</param>
+    //<param = "ngramLength"> bigram = 2, trigram = 3, etc</param>
+    //<return>List of nGrams (strings) </return>
     public class NGramGenerator{
         public static List<string> GetNgrams(List<string> tokens, int nGramLength)
         {
